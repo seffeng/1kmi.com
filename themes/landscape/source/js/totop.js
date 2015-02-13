@@ -21,7 +21,7 @@
     });
 
     // Scroll to top animation on click
-    $(scrollElem).click(function(){ 
+    scrollElem.click(function(){ 
         $('html, body').animate({scrollTop:0}, scrollSpeed); return false; 
     });
 })(jQuery);
